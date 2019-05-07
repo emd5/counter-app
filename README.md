@@ -7,29 +7,32 @@ A simple counter app using React
 Liz Mahoney
 
 ## Overview
+
 For this assignment, you will be creating a simple counter application that uses this.setState and this.state to update and capture the state of a displayed counter each time that a button is clicked. For example, if the "+" button is clicked, the displayed counter will increment by 1. If the "-" button is clicked, the counter will decrement by 1.
 
 # Time Estimate
 
 ```
-Number and name of feature: ________________________________
+Number and name of feature: Add Counter Feature
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hr
 
-Start time: _____
+Start time: 9:00am
 
-Finish time: _____
+Finish time: 930am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 30 mins
 ```
-
-
 
 ## Requirements
 Create the following components, all within your app.js file.
 
-<App>
-Should contain your <Counter> component and should be wrapped in <React.Fragment>. The component hierarchy should looks as follows:
+```
+ <App>
+```
+Should contain your `<Counter>` component and should be wrapped in `<React.Fragment>`. The component hierarchy should looks as follows:
+
+```
 <App>
   <Counter>
 <Counter>
@@ -37,6 +40,9 @@ Should contain the following state:
 this.state = {
   count: 0,
 };
+
+```
+
 Should contain a <p> element that contains the current number of clicks against your counter. On initialization, it should start with/display "0".
 Should contain a button that displays a "+" for incrementing the counter. On click, the count property on your state should update/increment by 1 and the <p> element referenced above should display the result.
 Should contain a button that displays a "-" for decrementing the counter. On click, the count property on your state should update/decrement by 1 and the <p> element referenced above should display the result.
