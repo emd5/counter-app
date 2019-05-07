@@ -1,9 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Counter App
 
-## Available Scripts
+A simple counter app using React
 
-In the project directory, you can run:
+## Author
 
+Liz Mahoney
+
+## Overview
+For this assignment, you will be creating a simple counter application that uses this.setState and this.state to update and capture the state of a displayed counter each time that a button is clicked. For example, if the "+" button is clicked, the displayed counter will increment by 1. If the "-" button is clicked, the counter will decrement by 1.
+
+# Time Estimate
+
+```
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+```
+
+
+
+## Requirements
+Create the following components, all within your app.js file.
+
+<App>
+Should contain your <Counter> component and should be wrapped in <React.Fragment>. The component hierarchy should looks as follows:
+<App>
+  <Counter>
+<Counter>
+Should contain the following state:
+this.state = {
+  count: 0,
+};
+Should contain a <p> element that contains the current number of clicks against your counter. On initialization, it should start with/display "0".
+Should contain a button that displays a "+" for incrementing the counter. On click, the count property on your state should update/increment by 1 and the <p> element referenced above should display the result.
+Should contain a button that displays a "-" for decrementing the counter. On click, the count property on your state should update/decrement by 1 and the <p> element referenced above should display the result.
+
+## In the project directory, you can run 
 ### `npm start`
 
 Runs the app in the development mode.<br>
