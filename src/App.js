@@ -6,7 +6,7 @@ const Header = () => {
       <h1>Counter App</h1>
       <p>Click on the buttons below!</p>
     </header>
-  );
+
 };
 class Content extends React.Component {
   constructor(props) {
